@@ -10,3 +10,9 @@
   - R1's vowel harmony line is correct, so no AOI ("could be clearer" is not an AOI).
   - English words (feature, subject, object, verb) are not an AOI: the user never banned English and the chat already mixes it.
   - No strength for R2's short format, since the table AOI criticises the format.
+
+## QC (reviewer)
+- Annotator 1: Disapprove. Praised the list format, flagged correct simplified facts (vowel harmony, SOV, phonetic spelling) as errors, missed the table issue. Ticks: Instruction Following, Truthfulness.
+- Annotator 2: Disapprove. Praised the list format, missed the table issue in both responses, only AOI (English words) not valid. Ticks: Instruction Following, Truthfulness.
+- Annotator 3: Approve with feedback. Caught the table issue in both; strengths praising the list contradict their own AOI; "(entire response)" excerpts; intro-sentence AOI not valid; heading severity too high. Ticks: Instruction Following, Clarity/Coherence, Other.
+- Lesson: check every strength against the same annotator's AOIs for contradictions before voting.
